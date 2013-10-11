@@ -1,0 +1,21 @@
+//
+// Prefix header for all source files of the 'scollogin' target in the 'scollogin' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+//本地：http://192.168.0.118/oc/public/oapi/member/list
+//注册
+#define api_member_reg @"http://apoyl.my.phpcloud.com/oc/oapi/member/reg";
+//登陆
+#define api_member_login @"http://apoyl.my.phpcloud.com/oc/oapi/member/login";
+//获取用户信息
+#define api_member_list @"http://apoyl.my.phpcloud.com/oc/oapi/member/list";

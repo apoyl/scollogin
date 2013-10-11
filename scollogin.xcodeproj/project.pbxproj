@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00011D1217E8429700C726E6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 00011D0717E8429700C726E6 /* .gitignore */; };
+		00011D1317E8429700C726E6 /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 00011D0917E8429700C726E6 /* AESCrypt.m */; };
+		00011D1417E8429700C726E6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 00011D0A17E8429700C726E6 /* LICENSE */; };
+		00011D1517E8429700C726E6 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 00011D0C17E8429700C726E6 /* NSData+Base64.m */; };
+		00011D1617E8429700C726E6 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 00011D0E17E8429700C726E6 /* NSData+CommonCrypto.m */; };
+		00011D1717E8429700C726E6 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 00011D1017E8429700C726E6 /* NSString+Base64.m */; };
+		00011D1817E8429700C726E6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 00011D1117E8429700C726E6 /* README.md */; };
+		004EEC4817EEFDC300F3F9A7 /* lycMy.m in Sources */ = {isa = PBXBuildFile; fileRef = 004EEC4617EEFDC300F3F9A7 /* lycMy.m */; };
+		004EEC4917EEFDC300F3F9A7 /* lycMy.xib in Resources */ = {isa = PBXBuildFile; fileRef = 004EEC4717EEFDC300F3F9A7 /* lycMy.xib */; };
+		0093D9FF17CCB34200B11B20 /* lycReg.m in Sources */ = {isa = PBXBuildFile; fileRef = 0093D9FE17CCB34200B11B20 /* lycReg.m */; };
+		00CF184D17C61EA300852F89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00CF184C17C61EA300852F89 /* UIKit.framework */; };
+		00CF184F17C61EA300852F89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00CF184E17C61EA300852F89 /* Foundation.framework */; };
+		00CF185117C61EA300852F89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00CF185017C61EA300852F89 /* CoreGraphics.framework */; };
+		00CF185917C61EA400852F89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CF185817C61EA400852F89 /* main.m */; };
+		00CF185D17C61EA400852F89 /* lycAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CF185C17C61EA400852F89 /* lycAppDelegate.m */; };
+		00CF185F17C61EA400852F89 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 00CF185E17C61EA400852F89 /* Default.png */; };
+		00CF186117C61EA400852F89 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00CF186017C61EA400852F89 /* Default@2x.png */; };
+		00CF186317C61EA400852F89 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00CF186217C61EA400852F89 /* Default-568h@2x.png */; };
+		00CF186617C61EA400852F89 /* lycLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CF186517C61EA400852F89 /* lycLogin.m */; };
+		00D78E781807911D0001AB1C /* lycReg.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00D78E771807911D0001AB1C /* lycReg.xib */; };
+		00D78E7A1807A24D0001AB1C /* lycLogin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00D78E791807A24D0001AB1C /* lycLogin.xib */; };
+		00D8158117F90A0300594ABC /* lycMemberModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D8158017F90A0300594ABC /* lycMemberModel.m */; };
+		00DE76B317DF292600180177 /* beijing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00DE76B217DF292600180177 /* beijing.jpg */; };
+		00FDB1C217E31955009900E4 /* lycXml.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FDB1C117E31955009900E4 /* lycXml.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00011D0717E8429700C726E6 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		00011D0817E8429700C726E6 /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
+		00011D0917E8429700C726E6 /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
+		00011D0A17E8429700C726E6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		00011D0B17E8429700C726E6 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		00011D0C17E8429700C726E6 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		00011D0D17E8429700C726E6 /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		00011D0E17E8429700C726E6 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		00011D0F17E8429700C726E6 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		00011D1017E8429700C726E6 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		00011D1117E8429700C726E6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		004EEC4517EEFDC300F3F9A7 /* lycMy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lycMy.h; sourceTree = "<group>"; };
+		004EEC4617EEFDC300F3F9A7 /* lycMy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lycMy.m; sourceTree = "<group>"; };
+		004EEC4717EEFDC300F3F9A7 /* lycMy.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = lycMy.xib; sourceTree = "<group>"; };
+		0093D9FD17CCB34200B11B20 /* lycReg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lycReg.h; sourceTree = "<group>"; };
+		0093D9FE17CCB34200B11B20 /* lycReg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lycReg.m; sourceTree = "<group>"; };
+		00CF184917C61EA300852F89 /* scollogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scollogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00CF184C17C61EA300852F89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		00CF184E17C61EA300852F89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00CF185017C61EA300852F89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		00CF185417C61EA400852F89 /* scollogin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "scollogin-Info.plist"; sourceTree = "<group>"; };
+		00CF185817C61EA400852F89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00CF185A17C61EA400852F89 /* scollogin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "scollogin-Prefix.pch"; sourceTree = "<group>"; };
+		00CF185B17C61EA400852F89 /* lycAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lycAppDelegate.h; sourceTree = "<group>"; };
+		00CF185C17C61EA400852F89 /* lycAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lycAppDelegate.m; sourceTree = "<group>"; };
+		00CF185E17C61EA400852F89 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		00CF186017C61EA400852F89 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		00CF186217C61EA400852F89 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		00CF186517C61EA400852F89 /* lycLogin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lycLogin.m; sourceTree = "<group>"; };
+		00D78E76180786F50001AB1C /* lycLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lycLogin.h; sourceTree = "<group>"; };
+		00D78E771807911D0001AB1C /* lycReg.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = lycReg.xib; sourceTree = "<group>"; };
+		00D78E791807A24D0001AB1C /* lycLogin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = lycLogin.xib; sourceTree = "<group>"; };
+		00D78E7B1807A2DE0001AB1C /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		00D8157F17F90A0300594ABC /* lycMemberModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lycMemberModel.h; sourceTree = "<group>"; };
+		00D8158017F90A0300594ABC /* lycMemberModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lycMemberModel.m; sourceTree = "<group>"; };
+		00DE76B217DF292600180177 /* beijing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beijing.jpg; path = ../../../../../Users/lyc/Downloads/beijing.jpg; sourceTree = "<group>"; };
+		00FDB1C017E31954009900E4 /* lycXml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lycXml.h; path = ../lycXml.h; sourceTree = "<group>"; };
+		00FDB1C117E31955009900E4 /* lycXml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = lycXml.m; path = ../lycXml.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00CF184617C61EA300852F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CF184D17C61EA300852F89 /* UIKit.framework in Frameworks */,
+				00CF184F17C61EA300852F89 /* Foundation.framework in Frameworks */,
+				00CF185117C61EA300852F89 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00011D0617E8429700C726E6 /* AESCrypt-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				00011D0717E8429700C726E6 /* .gitignore */,
+				00011D0817E8429700C726E6 /* AESCrypt.h */,
+				00011D0917E8429700C726E6 /* AESCrypt.m */,
+				00011D0A17E8429700C726E6 /* LICENSE */,
+				00011D0B17E8429700C726E6 /* NSData+Base64.h */,
+				00011D0C17E8429700C726E6 /* NSData+Base64.m */,
+				00011D0D17E8429700C726E6 /* NSData+CommonCrypto.h */,
+				00011D0E17E8429700C726E6 /* NSData+CommonCrypto.m */,
+				00011D0F17E8429700C726E6 /* NSString+Base64.h */,
+				00011D1017E8429700C726E6 /* NSString+Base64.m */,
+				00011D1117E8429700C726E6 /* README.md */,
+			);
+			name = "AESCrypt-ObjC";
+			path = "AESCrypt-ObjC-master";
+			sourceTree = "<group>";
+		};
+		00CF184017C61EA300852F89 = {
+			isa = PBXGroup;
+			children = (
+				00011D0617E8429700C726E6 /* AESCrypt-ObjC */,
+				00CF185217C61EA300852F89 /* scollogin */,
+				00CF184B17C61EA300852F89 /* Frameworks */,
+				00CF184A17C61EA300852F89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00CF184A17C61EA300852F89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00CF184917C61EA300852F89 /* scollogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00CF184B17C61EA300852F89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00CF184C17C61EA300852F89 /* UIKit.framework */,
+				00CF184E17C61EA300852F89 /* Foundation.framework */,
+				00CF185017C61EA300852F89 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00CF185217C61EA300852F89 /* scollogin */ = {
+			isa = PBXGroup;
+			children = (
+				00D78E791807A24D0001AB1C /* lycLogin.xib */,
+				00FDB1C017E31954009900E4 /* lycXml.h */,
+				00FDB1C117E31955009900E4 /* lycXml.m */,
+				00CF185B17C61EA400852F89 /* lycAppDelegate.h */,
+				00CF185C17C61EA400852F89 /* lycAppDelegate.m */,
+				00D78E76180786F50001AB1C /* lycLogin.h */,
+				00CF186517C61EA400852F89 /* lycLogin.m */,
+				0093D9FD17CCB34200B11B20 /* lycReg.h */,
+				00D78E771807911D0001AB1C /* lycReg.xib */,
+				0093D9FE17CCB34200B11B20 /* lycReg.m */,
+				004EEC4517EEFDC300F3F9A7 /* lycMy.h */,
+				004EEC4617EEFDC300F3F9A7 /* lycMy.m */,
+				004EEC4717EEFDC300F3F9A7 /* lycMy.xib */,
+				00D8157F17F90A0300594ABC /* lycMemberModel.h */,
+				00D8158017F90A0300594ABC /* lycMemberModel.m */,
+				00CF185317C61EA400852F89 /* Supporting Files */,
+			);
+			path = scollogin;
+			sourceTree = "<group>";
+		};
+		00CF185317C61EA400852F89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00DE76B217DF292600180177 /* beijing.jpg */,
+				00CF185417C61EA400852F89 /* scollogin-Info.plist */,
+				00CF185817C61EA400852F89 /* main.m */,
+				00CF185A17C61EA400852F89 /* scollogin-Prefix.pch */,
+				00CF185E17C61EA400852F89 /* Default.png */,
+				00CF186017C61EA400852F89 /* Default@2x.png */,
+				00CF186217C61EA400852F89 /* Default-568h@2x.png */,
+				00D78E7B1807A2DE0001AB1C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00CF184817C61EA300852F89 /* scollogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00CF186C17C61EA400852F89 /* Build configuration list for PBXNativeTarget "scollogin" */;
+			buildPhases = (
+				00CF184517C61EA300852F89 /* Sources */,
+				00CF184617C61EA300852F89 /* Frameworks */,
+				00CF184717C61EA300852F89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = scollogin;
+			productName = scollogin;
+			productReference = 00CF184917C61EA300852F89 /* scollogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00CF184117C61EA300852F89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = lyc;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = aotuman;
+			};
+			buildConfigurationList = 00CF184417C61EA300852F89 /* Build configuration list for PBXProject "scollogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 00CF184017C61EA300852F89;
+			productRefGroup = 00CF184A17C61EA300852F89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00CF184817C61EA300852F89 /* scollogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00CF184717C61EA300852F89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CF185F17C61EA400852F89 /* Default.png in Resources */,
+				00CF186117C61EA400852F89 /* Default@2x.png in Resources */,
+				00CF186317C61EA400852F89 /* Default-568h@2x.png in Resources */,
+				00DE76B317DF292600180177 /* beijing.jpg in Resources */,
+				00011D1217E8429700C726E6 /* .gitignore in Resources */,
+				00011D1417E8429700C726E6 /* LICENSE in Resources */,
+				00011D1817E8429700C726E6 /* README.md in Resources */,
+				004EEC4917EEFDC300F3F9A7 /* lycMy.xib in Resources */,
+				00D78E781807911D0001AB1C /* lycReg.xib in Resources */,
+				00D78E7A1807A24D0001AB1C /* lycLogin.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00CF184517C61EA300852F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CF185917C61EA400852F89 /* main.m in Sources */,
+				00CF185D17C61EA400852F89 /* lycAppDelegate.m in Sources */,
+				00CF186617C61EA400852F89 /* lycLogin.m in Sources */,
+				0093D9FF17CCB34200B11B20 /* lycReg.m in Sources */,
+				00FDB1C217E31955009900E4 /* lycXml.m in Sources */,
+				00011D1317E8429700C726E6 /* AESCrypt.m in Sources */,
+				00011D1517E8429700C726E6 /* NSData+Base64.m in Sources */,
+				00011D1617E8429700C726E6 /* NSData+CommonCrypto.m in Sources */,
+				00011D1717E8429700C726E6 /* NSString+Base64.m in Sources */,
+				004EEC4817EEFDC300F3F9A7 /* lycMy.m in Sources */,
+				00D8158117F90A0300594ABC /* lycMemberModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00CF186A17C61EA400852F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00CF186B17C61EA400852F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00CF186D17C61EA400852F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "scollogin/scollogin-Prefix.pch";
+				INFOPLIST_FILE = "scollogin/scollogin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		00CF186E17C61EA400852F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "scollogin/scollogin-Prefix.pch";
+				INFOPLIST_FILE = "scollogin/scollogin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00CF184417C61EA300852F89 /* Build configuration list for PBXProject "scollogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00CF186A17C61EA400852F89 /* Debug */,
+				00CF186B17C61EA400852F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00CF186C17C61EA400852F89 /* Build configuration list for PBXNativeTarget "scollogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00CF186D17C61EA400852F89 /* Debug */,
+				00CF186E17C61EA400852F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00CF184117C61EA300852F89 /* Project object */;
+}
