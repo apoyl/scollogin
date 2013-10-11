@@ -70,8 +70,8 @@
 		00D8157F17F90A0300594ABC /* lycMemberModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lycMemberModel.h; sourceTree = "<group>"; };
 		00D8158017F90A0300594ABC /* lycMemberModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lycMemberModel.m; sourceTree = "<group>"; };
 		00DE76B217DF292600180177 /* beijing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beijing.jpg; path = ../../../../../Users/lyc/Downloads/beijing.jpg; sourceTree = "<group>"; };
-		00FDB1C017E31954009900E4 /* lycXml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lycXml.h; path = ../lycXml.h; sourceTree = "<group>"; };
-		00FDB1C117E31955009900E4 /* lycXml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = lycXml.m; path = ../lycXml.m; sourceTree = "<group>"; };
+		00FDB1C017E31954009900E4 /* lycXml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lycXml.h; sourceTree = "<group>"; };
+		00FDB1C117E31955009900E4 /* lycXml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lycXml.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +110,8 @@
 		00CF184017C61EA300852F89 = {
 			isa = PBXGroup;
 			children = (
+				00CF185B17C61EA400852F89 /* lycAppDelegate.h */,
+				00CF185C17C61EA400852F89 /* lycAppDelegate.m */,
 				00011D0617E8429700C726E6 /* AESCrypt-ObjC */,
 				00CF185217C61EA300852F89 /* scollogin */,
 				00CF184B17C61EA300852F89 /* Frameworks */,
@@ -141,8 +143,6 @@
 				00D78E791807A24D0001AB1C /* lycLogin.xib */,
 				00FDB1C017E31954009900E4 /* lycXml.h */,
 				00FDB1C117E31955009900E4 /* lycXml.m */,
-				00CF185B17C61EA400852F89 /* lycAppDelegate.h */,
-				00CF185C17C61EA400852F89 /* lycAppDelegate.m */,
 				00D78E76180786F50001AB1C /* lycLogin.h */,
 				00CF186517C61EA400852F89 /* lycLogin.m */,
 				0093D9FD17CCB34200B11B20 /* lycReg.h */,
