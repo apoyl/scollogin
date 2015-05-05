@@ -12,10 +12,10 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
-//本地：http://192.168.0.118/oc/public/oapi/member/list
+//本地：http://127.0.0.1/oc/public/oapi/member/list
 //注册
-#define api_member_reg @"http://apoyl.my.phpcloud.com/oc/oapi/member/reg";
+#define api_member_reg @"http://www.apoyl.com/app/blogapi/public/oapi/member/reg";
 //登陆
-#define api_member_login @"http://apoyl.my.phpcloud.com/oc/oapi/member/login";
+#define api_member_login @"http://www.apoyl.com/app/blogapi/public/oapi/member/login";
 //获取用户信息
-#define api_member_list @"http://apoyl.my.phpcloud.com/oc/oapi/member/list";
+#define api_member_list @"http://www.apoyl.com/app/blogapi/public/oapi/member/list";
